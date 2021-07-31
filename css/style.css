@@ -99,8 +99,13 @@ img {
   align-items: center;
   margin-left: auto;
 }
-.icon-contact {
-  fill: currentColor;
+
+.icon-mailto {
+  color: currentColor;
+  margin-right: 10px;
+}
+.icon-tel {
+  color: currentColor;
   margin-right: 10px;
 }
 
@@ -113,20 +118,39 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   font-weight: 500;
-  display: block;
+  display: flex;
+  align-items: center;
 }
-.contact-link:hover,
-:focus {
+.contact-link:hover {
   color: var(--accent-color);
 }
+.contact-link .icon-mailto:hover {
+  fill: var(--accent-color);
+}
+.contact-link .icon-tel:hover {
+  fill: var(--accent-color);
+}
+
 /* Секция герой */
 
 .section-hero {
-  background: var(--hero-footer-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-left: 0;
+  padding-right: 0;
+  background: var(--hero-footer-color);
 }
+
+.hero-box {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../image/bg-image.jpg);
+}
+
 .title-hero {
   color: var(--whitw-color-texte);
   font-size: 44px;
@@ -177,7 +201,19 @@ img {
 }
 .features-container {
   display: flex;
-  padding: 0px;
+  margin: 0px;
+}
+.icon-features-box {
+  fill: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 100px;
+}
+
+.icon-features {
+  display: block;
+  margin: 0;
 }
 .features-title-list {
   font-size: 14px;
