@@ -44,7 +44,6 @@ img {
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
-  
 }
 /*logo*/
 .logo-nav {
@@ -61,7 +60,7 @@ img {
 }
 
 /*секция навигация*/
-.main-nav{
+.main-nav {
   display: flex;
   align-items: baseline;
 }
@@ -71,7 +70,7 @@ img {
 }
 .nav-container {
   display: flex;
- }
+}
 .nav-container .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -84,8 +83,8 @@ img {
   display: block;
 }
 .nav-container .list {
-  color: var(--second-color);.
- }
+  color: var(--second-color);
+}
 
 .nav-container .link-nav:hover,
 :focus {
@@ -99,7 +98,10 @@ img {
   justify-content: flex-end;
   align-items: center;
   margin-left: auto;
- 
+}
+.icon-contact {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .contacts-section .item:not(:last-child) {
@@ -112,7 +114,6 @@ img {
   letter-spacing: 0.02em;
   font-weight: 500;
   display: block;
-  
 }
 .contact-link:hover,
 :focus {
@@ -348,7 +349,7 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
- 
+
   background-color: var(--secondery-backgraund);
   border: none;
   border-radius: 4px;
