@@ -317,6 +317,64 @@ img {
   font-size: 16px;
   text-align: center;
 }
+.social-links-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px 30px 32px;
+}
+.icon-box-team {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-team {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+}
+.icon-box-team:hover .icon-team,
+.icon-box-team:focus .icon-team {
+  fill: var(--whitw-color-texte);
+}
+.icon-box-team:hover,
+.icon-box-team:focus {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Наши клиенты */
+.section-our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container-our-clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .container-our-clients > .item {
+  padding: 16px 32px;
+} */
+/* .icon-box-clients {
+  padding: 16px 32px;
+} */
+.icon-clients {
+  fill: #afb1b8;
+  padding: 16px 32px;
+}
+.icon-box-clients:hover .icon-clients,
+.icon-box-clients:focus .icon-clients {
+  fill: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Футер */
 .section-footer {
   background: var(--hero-footer-color);
